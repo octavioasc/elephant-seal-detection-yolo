@@ -14,7 +14,7 @@ The implementation addresses common challenges in detection tasks, including:
 ## 🧠 Complete Workflow
 
 <p align="center">
-  <img src="assets/workflow.png" alt="Complete Workflow" width="1000">
+  <img src="assets/workflow.png" alt="Complete Workflow" width="800">
 </p>
 
 ## 🛠️ Tech Stack & Libraries
@@ -27,3 +27,28 @@ Core technologies used in this project:
 -   **NumPy**
 -   **Scikit-learn**
 -   **Weight & Biases**
+
+
+## 📈 Results & Metrics
+
+The trained model based on YOLOv10X pretrained model achieved strong performance on aerial wildlife detection tasks, particularly for small-object localization in high-resolution imagery.
+
+### Training Performance
+
+<p align="center">
+  <img src="assets/training.png" alt="Training Performance" width="800">
+</p>
+
+### Evaluation Metrics
+
+| Metric    | Value |
+| --------- | ----- |
+| mAP@50    | 0.79  |
+| Precision | 0.81  |
+| Recall    | 0.78  |
+| F1-Score  | 0.79  |
+
+#### Precision Recall Curve
+<p align="center">
+  <img src="assets/pr_curve.png" alt="PR Curve" width="500">
+</p>

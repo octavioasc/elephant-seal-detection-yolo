@@ -11,12 +11,17 @@ The implementation addresses common challenges in detection tasks, including:
  - Complex backgrounds.
  - Class imbalance across wildlife species.
 
+## 🧠 Complete Workflow
+
+<p align="center">
+  <img src="assets/workflow.png" alt="Complete Workflow" width="1000">
+</p>
+
 ## 🛠️ Tech Stack & Libraries
 
 Core technologies used in this project:
 
 -   **Python**  
--   **PyTorch**
 -   **SAHI (Slicing Aided Hyper Inference)**
 -   **Ultralytics YOLO (v8 / v10)**
 -   **NumPy**

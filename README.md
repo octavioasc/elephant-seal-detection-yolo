@@ -1,6 +1,10 @@
-# Aerial Wildlife Detection using YOLO
+# Elephant Seal Detection using YOLO
 
-Object detection pipeline for wildlife monitoring in aerial imagery using YOLO-based deep learning model.
+Object detection pipeline for Elephant Seal monitoring in aerial imagery using YOLO-based deep learning model.
+
+<p align="center">
+  <img src="assets/preview.png" alt="Preview" width="500">
+</p>
 
 ## 📖 Overview
 This repo focuses on the computer vision workflow: data preparation, model training configuration, inference, evaluation, and visualization. While remaining independent of proprietary datasets and trained models.
@@ -9,7 +13,7 @@ The implementation addresses common challenges in detection tasks, including:
  - Detection of small and densely packed objects.
  - High-resolution imagery.
  - Complex backgrounds.
- - Class imbalance across wildlife species.
+ - Class imbalance across coastal marine wildlife species.
 
 ## 🧠 Complete Workflow
 
@@ -31,7 +35,7 @@ Core technologies used in this project:
 
 ## 📈 Results & Metrics
 
-The trained model based on YOLOv10X pretrained model achieved strong performance on aerial wildlife detection tasks, particularly for small-object localization in high-resolution imagery.
+The trained model based on YOLOv10X pretrained model achieved strong performance on Elephant Seal detection tasks, particularly for small-object localization in high-resolution imagery.
 
 ### Training Performance
 
@@ -50,5 +54,10 @@ The trained model based on YOLOv10X pretrained model achieved strong performance
 
 #### Precision Recall Curve
 <p align="center">
-  <img src="assets/pr_curve.png" alt="PR Curve" width="500">
+  <img src="assets/pr_curve.png" alt="PR Curve" width="800">
+</p>
+
+### Confusion Matrix
+<p align="center">
+  <img src="assets/cm.png" alt="Confusion Matrix" width="800">
 </p>

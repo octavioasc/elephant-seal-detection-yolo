@@ -8,12 +8,11 @@ Elephant Seal monitoring in aerial imagery using YOLO-based deep learning model.
 
 ## Overview & Motivation
 
-This repo presents a deep learning-based solution for the automated detection and classification of marine-coastal wildlife using high-resolution aerial imagery captured by aircraft. The project focuses on monitoring colonies of southern elephant seals (Mirounga leonina) in the Valdés Peninsula, Patagonia, Argentina.
+This work presents a deep learning-based solution for the automated detection and classification of marine-coastal wildlife using high-resolution aerial imagery captured by aircraft. The project focuses on monitoring colonies of southern elephant seals (Mirounga leonina) in the Valdés Peninsula, Patagonia, Argentina.
 
-Traditional in situ population surveys in large and remote coastal environments are often limited by logistical and operational constraints. To address these challenges, this work combines aerial remote sensing and computer vision techniques to improve the efficiency, scalability, and accuracy of wildlife monitoring efforts.
+Traditional in situ population surveys in large and remote coastal environments are often limited by logistical and operational constraints. Combining aerial remote sensing and computer vision could help improve the efficiency, scalability, and accuracy of elephant seal monitoring efforts.
 
-Note: This project explores the computer vision workflow: data preparation, model training configuration, inference, evaluation, and visualization. While remaining independent of proprietary datasets and trained models.
-The implementation addresses common challenges in detection tasks, including:
+The repository describes a complete computer vision workflow covering the stages involved in neural network model development, encompassing data preparation, model configuration, inference, evaluation, and visualization. Several challenges inherent to detection tasks influenced the design of the workflow, including:
 
  - Detection of small and densely packed objects.
  - High-resolution imagery.

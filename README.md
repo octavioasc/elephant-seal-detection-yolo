@@ -1,13 +1,18 @@
 # Elephant Seal Detection using YOLO
 
-Object detection pipeline for Elephant Seal monitoring in aerial imagery using YOLO-based deep learning model.
+Elephant Seal monitoring in aerial imagery using YOLO-based deep learning model.
 
 <p align="center">
   <img src="assets/preview.png" alt="Preview" width="500">
 </p>
 
-## 📖 Overview
-This repo focuses on the computer vision workflow: data preparation, model training configuration, inference, evaluation, and visualization. While remaining independent of proprietary datasets and trained models.
+## Overview & Motivation
+
+This repo presents a deep learning-based solution for the automated detection and classification of marine-coastal wildlife using high-resolution aerial imagery captured by aircraft. The project focuses on monitoring colonies of southern elephant seals (Mirounga leonina) in the Valdés Peninsula, Patagonia, Argentina.
+
+Traditional in situ population surveys in large and remote coastal environments are often limited by logistical and operational constraints. To address these challenges, this work combines aerial remote sensing and computer vision techniques to improve the efficiency, scalability, and accuracy of wildlife monitoring efforts.
+
+Note: This project explores the computer vision workflow: data preparation, model training configuration, inference, evaluation, and visualization. While remaining independent of proprietary datasets and trained models.
 The implementation addresses common challenges in detection tasks, including:
 
  - Detection of small and densely packed objects.
@@ -15,13 +20,23 @@ The implementation addresses common challenges in detection tasks, including:
  - Complex backgrounds.
  - Class imbalance across coastal marine wildlife species.
 
-## 🧠 Complete Workflow
+## Related Publication
+
+This repository is based on the following work:
+
+Ascagorta, Octavio et al.,  
+"Large-Scale Coastal Marine Wildlife Monitoring with Aerial Imagery",  
+Journal of Imaging, 2025.
+
+https://doi.org/10.3390/jimaging11040094
+
+## Complete Workflow
 
 <p align="center">
   <img src="assets/workflow.png" alt="Complete Workflow" width="800">
 </p>
 
-## 🛠️ Tech Stack & Libraries
+## Stack & Libraries
 
 Core technologies used in this project:
 
@@ -33,7 +48,7 @@ Core technologies used in this project:
 -   **Weight & Biases**
 
 
-## 📈 Results & Metrics
+## Results & Metrics
 
 The trained model based on YOLOv10X pretrained model achieved strong performance on Elephant Seal detection tasks, particularly for small-object localization in high-resolution imagery.
 
